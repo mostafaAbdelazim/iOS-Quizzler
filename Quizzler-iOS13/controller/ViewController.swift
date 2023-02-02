@@ -45,7 +45,6 @@ class ViewController: UIViewController {
 
     func resetButtons(answers: [String]) {
         // set the new possiable answers
-        print(answers)
         firstOptionButton.setTitle(answers[0], for: .normal)
         secondOptionButton.setTitle(answers[1], for: .normal)
         thirdOptionButton.setTitle(answers[2], for: .normal)
